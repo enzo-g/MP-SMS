@@ -19,3 +19,5 @@ Current bugs:
 
 * I have to cron the sms sending operation, because I have a timeout problem if a text has to be send to a large number of contacts.
 * Line break not supported in sms redaction page.
+
+Detailed Instructions in French to install the add-on available there: http://blog.egautier.net/mailpoet-sms/
