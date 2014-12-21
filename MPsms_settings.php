@@ -17,7 +17,7 @@ $table_name = $wpdb->prefix . 'wysija_user';
 
 <?php    echo ("<h4>Set the url of the phone</h4>"); ?>
 	<form name="ipphone_form" method="post" action="">
-	<p><?php _e("URL: " ); ?><input type="text" name="ipphone" size="45" value="<?php echo $ipphonec; ?>" size="20"><?php _e(" ex: http://192.168.0.102:9090/sendsms?phone=0 " ); ?></p>
+	<p><?php _e("URL: " ); ?><input type="text" name="ipphone" size="45" value="<?php echo $ipphonec; ?>" size="20"><?php _e(" ex: http://192.168.0.102:9090/sendsms?phone= " ); ?></p>
 	<input type="submit" name="valider" value="Update" />
 	</form>
 <?php
